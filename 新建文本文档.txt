@@ -1,0 +1,9 @@
+$ sudo apt-get update
+$ sudo apt-get install build-essential autoconf git
+ 
+$ git clone https://github.com/devttys0/binwalk
+$ cd binwalk
+$ sudo python setup.py install
+ 
+# 如果安装的是 python 2.x，还需要安装python-lzma模块
+$ sudo apt-get install python-lzma
