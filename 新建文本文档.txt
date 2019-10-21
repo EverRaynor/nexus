@@ -8,5 +8,6 @@ $ sudo python setup.py install
 # 如果安装的是 python 2.x，还需要安装python-lzma模块
 $ sudo apt-get install python-lzma
 
+dd if=DIR300_v1.04_B16.bin skip=524416 bs=1 of=DIR.fs.Squashfs
 
-https://sourceforge.net/projects/squashfs/
+unsquashfs DIR -fs.Squashfs
